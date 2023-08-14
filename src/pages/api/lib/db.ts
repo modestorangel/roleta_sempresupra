@@ -18,3 +18,4 @@ export default async function excuteQuery({ query, values }: any) {
         return { error };
     }
 }
+ 
