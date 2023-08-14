@@ -26,7 +26,7 @@ const Home: NextPage = ({ awards }: any) => {
       <div className={styles.container}>
         <main>
           <div className={styles.section}>
-            <h3>Campanha de indicação Julho</h3>
+            <h3>Você está a um passo de girar.</h3>
             <h1>Desenrola, gira e ganhe um premiozão!</h1>
             <div className={styles.form}>
               <h2>Você está a um passo de girar.</h2>
