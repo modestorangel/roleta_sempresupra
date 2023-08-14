@@ -2,11 +2,11 @@
 import mysql from 'serverless-mysql';
 const db = mysql({
     config: {
-        host: "172.106.0.112",
+        host: "108.181.92.69",
         port: 3306,
-        database: "roleta-ss",
-        user: "vjf2a4gz",
-        password: "4lM19Bn7qf"
+        database: "roleta_ss",
+        user: "admin_roleta",
+        password: "v6ECM@TJZZk18gVG"
     }
 });
 export default async function excuteQuery({ query, values }: any) {
