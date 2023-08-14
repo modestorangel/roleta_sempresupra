@@ -27,7 +27,7 @@ const Home: NextPage = ({ awards }: any) => {
         <main>
           <div className={styles.section}>
             <h3>Você está a um passo de girar.</h3>
-            <h1>Desenrola, gira e ganhe um premiozão!</h1>
+            <h1>Arraiá de prêmios! Sempre Supra</h1>
             <div className={styles.form}>
               <h2>Você está a um passo de girar.</h2>
               <h4>Confirme os seus dados abaixo de associado(a).</h4>
@@ -57,8 +57,7 @@ const Home: NextPage = ({ awards }: any) => {
             </div>
             <div className={styles.infos}>
               <h3>Você no ritmo com a Sempre Supra.</h3>
-              <h3>Você que garantiu sua indicação fechada, chegou o momento de girar* e acumular prêmios.</h3>
-              <h5>*A cada indicação fechada você poderá girar a roleta 1 vez.</h5>
+              <h3>Você que garantiu sua indicação fechada, chegou o momento de girar* e acumular prêmios.</h3>     
             </div>
             <div className={styles.icons}>
               <a href="https://web.whatsapp.com/send?phone=5521967723535" target='_blank' rel="noreferrer">
