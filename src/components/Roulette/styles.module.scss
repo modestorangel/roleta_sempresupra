@@ -1,0 +1,69 @@
+.rouletteContainer {
+  height: 45rem;
+  width: 45rem;
+  position: relative;
+  z-index: 100;
+  display: block;
+
+  .shadow {
+    display: block;
+    background: transparent;
+    height: 37rem;
+    width: 37rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    z-index: 90;
+    left: 55px;
+    box-shadow: inset 10px 10px 30px 0px #000;
+  }
+
+  span {
+    z-index: 99 !important;
+  }
+
+  canvas {
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    left: 0px;
+  }
+
+  .innerRoulette {
+    position: absolute;
+    top: 295px;
+    z-index: 90;
+    left: 285px;
+
+    span {
+      width: 8rem !important;
+    }
+  }
+
+  @media (max-width: 1281px) {
+    width: 22rem;
+    height: auto;
+
+    canvas {
+      top: -174px;
+      left: -174px;
+    }
+
+    .shadow {
+      height: 19rem;
+      width: 19rem;
+      top: 20px;
+      left: 20px;
+    }
+
+    .innerRoulette {
+      top: 145px;
+      left: 143px;
+  
+      span {
+        width: 4rem !important;
+      }
+    }
+  
+  }
+}

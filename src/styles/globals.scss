@@ -1,0 +1,71 @@
+:root {
+  --primary: #95150a;
+  --secundary: #bc3533;
+  --white: #fff;
+  --gray: #3c3c3b;
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../assets/fonts/Montserrat-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "Montserrat";
+  src: url('../assets/fonts/Montserrat-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+body {
+  background-image: url(../assets/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 720px) {
+    padding: 0 1rem 2rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+input,
+button,
+a,
+span {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container{
+  @media print, screen and (min-width: 64em) {
+    max-width: 1320px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
