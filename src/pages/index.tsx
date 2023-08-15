@@ -26,7 +26,6 @@ const Home: NextPage = ({ awards }: any) => {
       <div className={styles.container}>
         <main>
           <div className={styles.section}>
-            <h3>Você está a um passo de girar.</h3>
             <h1>Arraiá de prêmios! Sempre Supra</h1>
             <div className={styles.form}>
               <h2>Você está a um passo de girar.</h2>
@@ -56,7 +55,6 @@ const Home: NextPage = ({ awards }: any) => {
               <h4>Atenção: Após preencher os dados, aguarde um instante para a validação dos dados</h4>
             </div>
             <div className={styles.infos}>
-              <h3>Você no ritmo com a Sempre Supra.</h3>
               <h3>Você que garantiu sua indicação fechada, chegou o momento de girar* e acumular prêmios.</h3>     
             </div>
             <div className={styles.icons}>
