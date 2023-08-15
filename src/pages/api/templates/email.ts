@@ -39,14 +39,14 @@ const emailTemplate = (name: string, award: string): string => {
 
     <p>Seu prêmio foi: <b> ${award}</b></p>
 
-    <p>Obrigado por participar da nossa Campanha de Indicação: <b>Desenrola, gira & ganhe um Premiozão.</b></p>
+    <p>Obrigado por participar da nossa Campanha de Indicação: <b>ARRAIÁ DE PRÊMIOS! SEMPRE SUPRA</b></p>
 
     <p>Em breve entraremos em contato para informar o próximo passo para a utilização. <br />
     Continue indicando e acumule vantagens!</p>
 
     <p> <a href="https://sempresupra.com.br/campanha-de-indicacao">Acesse aqui<a/> a campanha deste mês. </p>
 
-    <p><h5>A entrega dos prêmios será até 30/09, exceto o desconto no boleto, que será gerado para o mês de Outubro de 2022*.</h5> </p>
+    <p><h5>A entrega dos prêmios será até 30/09, exceto o desconto no boleto, que será gerado para o mês de Outubro de 2023*.</h5> </p>
     </body>
 </html>
     `
