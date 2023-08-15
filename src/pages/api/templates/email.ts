@@ -33,7 +33,7 @@ const emailTemplate = (name: string, award: string): string => {
     </head>
     
     <body class="body" style="padding:0; margin:0; display:block; background:#ffffff; -webkit-text-size-adjust:none" bgcolor="#ffffff">
-    <img src="https://sempre-supra.s3.amazonaws.com/topo_1.png" />
+    <img src="	https://sempresupra.com.br/wp-content/uploads/2020/03/LOGO-NOVA-2016-2.png" />
      <br /><br />
       <p><h1><b>Parabéns ${name}!</b></h1></p>
 
