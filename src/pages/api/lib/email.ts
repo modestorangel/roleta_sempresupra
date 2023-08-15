@@ -9,13 +9,13 @@ export default async function send(to: string, name: string, award: string) {
             ciphers: 'SSLv3'
         },
         auth: {
-            user: 'noreply@sempresupra.com.br',
-            pass: 'S3mpr3supr@2022',
+            user: 'no-reply@sempresupra.com.br',
+            pass: 'S3mpr3supr@2023',
         },
     });
 
     await transporter.sendMail({
-        from: 'noreply@sempresupra.com.br', 
+        from: 'no-reply@sempresupra.com.br', 
         to: [to, 'marketing@sempresupra.com.br'],
         subject: "Ei, já vimos que você girou! Consulte seu prêmio aqui", 
         html: emailTemplate(name, award),
